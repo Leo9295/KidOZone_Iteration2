@@ -33,7 +33,7 @@ public class PuzzleView extends AppCompatActivity implements PuzzleGame.GameStat
         initView();
         initListener();
 
-        mp = MediaPlayer.create(PuzzleView.this, R.raw.viewdes);
+        mp = MediaPlayer.create(PuzzleView.this, R.raw.puzzle_sights);
         mp.start();
 
         Button backButton = (Button) findViewById(R.id.backButton);

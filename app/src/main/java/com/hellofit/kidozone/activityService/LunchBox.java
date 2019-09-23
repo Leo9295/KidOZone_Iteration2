@@ -63,7 +63,7 @@ public class LunchBox extends AppCompatActivity {
         foodInfos = new ArrayList<FoodInfo>();
         pickedList = new ArrayList<FoodInfo>();
 
-        mp = MediaPlayer.create(LunchBox.this, R.raw.lunchbox_intro);
+        mp = MediaPlayer.create(LunchBox.this, R.raw.lunch_box_intro);
         mp.start();
 
         // Load Waste data from SharedPreferences

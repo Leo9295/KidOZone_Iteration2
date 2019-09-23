@@ -33,7 +33,7 @@ public class PuzzleSport extends AppCompatActivity implements PuzzleGame.GameSta
         initView();
         initListener();
 
-        mp = MediaPlayer.create(PuzzleSport.this, R.raw.sportdes);
+        mp = MediaPlayer.create(PuzzleSport.this, R.raw.puzzle_sport);
         mp.start();
 
         Button backButton = (Button) findViewById(R.id.backButton);

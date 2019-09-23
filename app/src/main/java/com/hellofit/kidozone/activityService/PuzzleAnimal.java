@@ -33,7 +33,7 @@ public class PuzzleAnimal extends AppCompatActivity implements PuzzleGame.GameSt
         initView();
         initListener();
 
-        mp = MediaPlayer.create(PuzzleAnimal.this, R.raw.animaldes);
+        mp = MediaPlayer.create(PuzzleAnimal.this, R.raw.puzzle_animals);
         mp.start();
 
         Button backButton = (Button) findViewById(R.id.backButton);
